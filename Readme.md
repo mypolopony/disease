@@ -99,22 +99,23 @@ Anyway, the point to stress here is that when we want to classify something, we 
 In essence, you can obtain a matrix like the following:
 
 ```
-File											RandomForest	has_disease	is_group	dbpedia
-articles/positive/Atrophy						1	False	False	False
-articles/negative/3065							1	False	False	False
-articles/negative/3939							1	False	False	False
-articles/positive/Aortic_valve_stenosis			1	False	False	True
-articles/positive/Cooks_syndrome				1	True	False	True
-articles/positive/Cancer	1	True	True	True
-articles/positive/Chondrodysplasia_punctata	1	True	True	False
-articles/positive/Watermelon_stomach	1	False	False	False
-articles/positive/Dilated_cardiomyopathy	1	False	False	False
-articles/negative/9819	1	False	False	False
-articles/negative/8644	1	False	False	False
-articles/positive/Jumping_Frenchmen_of_Maine	1	False	True	false
+File											                                 RandomForest	has_disease	is_group	dbpedia
+articles/positive/Atrophy						                 1	           False	       False	  False
+articles/negative/3065							                   1	           False	       False	  False
+articles/negative/3939							                   1	           False	       False	  False
+articles/positive/Aortic_valve_stenosis		      	1            False	       False	  True
+articles/positive/Cooks_syndrome				            1	           True	        False	  True
+articles/positive/Cancer	                       1	           True	        True	   True
+articles/positive/Chondrodysplasia_punctata	    1	           True	        True	   False
+articles/positive/Watermelon_stomach           	1	           False	       False	  False
+articles/positive/Dilated_cardiomyopathy	       1	           False	       False	  False
+articles/negative/9819	                         1	           False	       False	  False
+articles/negative/8644	                         1	           False	       False	  False
+articles/positive/Jumping_Frenchmen_of_Maine	   1	           False	       True	   false
 ```
 
-A random selection of negatives and positives and the various inquries (a **1** in the RandomForest column means a correct guess). This illustrates a few nuances: for example, **Watermelon Stomach** is a colloquial term for **Gastric Antral Vascular Ectasia**. 
+
+A random selection of negatives and positives and the various inquries (a **1** in the RandomForest column means a correct guess). This illustrates a few nuances: for example, **Watermelon Stomach** is a colloquial term for **Gastric Antral Vascular Ectasia**. **Cancer** is properly identified as a group, as is **chondrodysplasia punctata** (a group of bone disorders).
 
 **Jumping Frenchmen of Maine**, by the way, is also not a disease per se, but actually a rare and peculiar neuropsychiatric phenomenon observed in lumber workers in the late 1800s. Men in the community became hypersensitive and were easily startled both physically and emotionally, developing sudden tics similar to those found in patients with Tourette Syndrome. Odd!
 
