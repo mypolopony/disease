@@ -1,0 +1,21 @@
+Elapsed time: 1099.22s
+         1759814428 function calls (1759806030 primitive calls) in 2663.302 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    13692  460.563    0.034  740.234    0.054 YasumasaStemmer.py:39(__init__)
+404175098  189.187    0.000  189.187    0.000 {method 'split' of 'str' objects}
+ 13178040  165.385    0.000  945.879    0.000 parser.py:293(parse_starttag)
+ 94665751  156.652    0.000  156.652    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+    13692  145.153    0.011 1639.595    0.120 parser.py:134(goahead)
+ 44886126  109.983    0.000  112.071    0.000 element.py:191(setup)
+ 13191732   98.362    0.000  257.462    0.000 element.py:783(__init__)
+202080654   84.287    0.000   84.287    0.000 {method 'replace' of 'str' objects}
+ 26534078   82.118    0.000  275.744    0.000 __init__.py:287(endData)
+  8950826   78.452    0.000  114.094    0.000 __init__.py:148(_replace_cdata_list_attribute_values)
+    13693   75.784    0.006   77.614    0.006 {method 'read' of '_io.TextIOWrapper' objects}
+ 13178040   70.501    0.000  512.932    0.000 __init__.py:386(handle_starttag)
+ 12695146   65.475    0.000  338.091    0.000 parser.py:378(parse_endtag)
+ 52568046   59.391    0.000   97.931    0.000 _markupbase.py:48(updatepos)
+ 13178040   54.468    0.000  567.401    0.000 _htmlparser.py:52(handle_starttag)

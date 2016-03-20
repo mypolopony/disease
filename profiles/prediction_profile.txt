@@ -1,0 +1,15 @@
+         215084882 function calls (215077166 primitive calls) in 431.611 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1500    0.149    0.000  298.078    0.199 main.py:77(__init__)
+     1500    0.115    0.000  288.986    0.193 __init__.py:82(__init__)
+     1500    0.016    0.000  288.691    0.192 __init__.py:235(_feed)
+     1500    0.014    0.000  288.649    0.192 _htmlparser.py:159(feed)
+     1500    0.007    0.000  288.613    0.192 parser.py:104(feed)
+     1500   25.135    0.017  288.606    0.192 parser.py:134(goahead)
+  1686805   28.427    0.000  167.545    0.000 parser.py:293(parse_starttag)
+     1500    6.099    0.004  127.069    0.085 main.py:113(get_paragraphs)
+     1500    0.139    0.000  114.264    0.076 main.py:89(clean_string)
+     1500   65.971    0.044  106.236    0.071 YasumasaStemmer.py:39(__init__)
