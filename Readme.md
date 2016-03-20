@@ -176,7 +176,7 @@ DBPedia has some really fun gems as well: it classifies **shark attack** as a di
 
 To be fair, there exist (in real life!) at least nine ICD-10 codes used in medical billing involving sharks:
 ```
-ICD-10 CODE        DESCRIPTION
+ICD-10 CODE     DESCRIPTION
 ----            ----
 W56.41XA        Bitten by shark, initial encounter
 W56.41XD        Bitten by shark, subsequent encounter
