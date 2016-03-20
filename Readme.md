@@ -24,7 +24,7 @@
 - Some clever edge-case considerations
 - Many thinkings and considerations (this Readme file)
 
- ## Approach and Motivation
+## Approach and Motivation
 When it comes to learning the machines, as with most tasks, the first goal is to try to avoid reinventing the wheel. This is an essential and a non-trivial part of how to start thinking about how to solve a problem -- what level of abstraction do we need? What processes do we want under our control, and why?
 
 This comes up all the time when deciding on which libraries to use or which outside services to employ. To any degree that's reasonable, I support dogfooding (https://en.wikipedia.org/wiki/Eating_your_own_dog_food), but where exactly to draw the line is not obvious.
