@@ -114,7 +114,7 @@ articles/positive/Jumping_Frenchmen_of_Maine	1				False		True		false
 ```
 
 
-A random selection of negatives and positives and the various inquries (a **1** in the RandomForest column means a correct guess). This illustrates a few nuances: for example, **Watermelon Stomach** is a colloquial term for **Gastric Antral Vascular Ectasia**. **Cancer** is properly identified as a group, as is **chondrodysplasia punctata** (a group of bone disorders).
+A random selection of negatives and positives and the various inquries (a **1** in the RandomForest column means a correct guess). This illustrates a few nuances: for example, **Watermelon Stomach** is a colloquial term for **Gastric Antral Vascular Ectasia**, not so obviously unless you know the etiology (think: veiny, distended abdomen). **Cancer** is properly identified as a group, as is **chondrodysplasia punctata** (a group of bone disorders).
 
 **Jumping Frenchmen of Maine**, by the way, is also not a disease per se, but actually a rare and peculiar neuropsychiatric phenomenon observed in lumber workers in the late 1800s. Men in the community became hypersensitive and were easily startled both physically and emotionally, developing sudden tics similar to those found in patients with Tourette Syndrome. Odd!
 
