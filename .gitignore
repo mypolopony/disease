@@ -1,0 +1,7 @@
+*.pyc
+*.iml
+*.xml
+.idea/.name
+env/*
+articles/*
+data/section_predicted.dat
