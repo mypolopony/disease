@@ -1,7 +1,7 @@
-# Wikipedia Disease Classification
-<b>Title</b>          : disease_classifier.py
-<b>Description</b>   : Implementation of text classifiers
-<b>Author</b>         : Selwyn-Lloyd McPherson (selwyn.mcpherson@gmail.com)
+# Wikipedia Disease Classification  
+<b>Title</b>          : disease_classifier.py  
+<b>Description</b>   : Implementation of text classifiers  
+<b>Author</b>         : Selwyn-Lloyd McPherson (selwyn.mcpherson@gmail.com)  
 <b>Python Version</b> : 3.5.0
 
 ## Contents
