@@ -1,7 +1,7 @@
 # Wikipedia Disease Classification  
 <b>Title</b>          : disease_classifier.py  
 <b>Description</b>   : Implementation of text classifiers  
-<b>Author</b>         : Selwyn-Lloyd McPherson (selwyn.mcpherson@gmail.com)  
+<b>Author</b>         : Selwyn-Lloyd McPherson (selwyn.mcpherson@gmail.com)   
 <b>Python Version</b> : 3.5.0
 
 ## Contents
@@ -25,8 +25,7 @@
 - Some clever edge-case considerations
 - Many thinkings and considerations (this Readme file)
 
-<a id='approach_and_motivation'></a>
-## Approach and Motivation
+ ## Approach and Motivation
 When it comes to learning the machines, as with most tasks, the first goal is to try to avoid reinventing the wheel. This is an essential and a non-trivial part of how to start thinking about how to solve a problem -- what level of abstraction do we need? What processes do we want under our control, and why?
 
 This comes up all the time when deciding on which libraries to use or which outside services to employ. To any degree that's reasonable, I support dogfooding (https://en.wikipedia.org/wiki/Eating_your_own_dog_food), but where exactly to draw the line is not obvious.
@@ -99,19 +98,19 @@ Anyway, the point to stress here is that when we want to classify something, we 
 In essence, you can obtain a matrix like the following:
 
 ```
-File											                                 RandomForest	has_disease	is_group	dbpedia
-articles/positive/Atrophy						                 1	           False	       False	  False
-articles/negative/3065							                   1	           False	       False	  False
-articles/negative/3939							                   1	           False	       False	  False
-articles/positive/Aortic_valve_stenosis		      	1            False	       False	  True
-articles/positive/Cooks_syndrome				            1	           True	        False	  True
-articles/positive/Cancer	                       1	           True	        True	   True
-articles/positive/Chondrodysplasia_punctata	    1	           True	        True	   False
-articles/positive/Watermelon_stomach           	1	           False	       False	  False
-articles/positive/Dilated_cardiomyopathy	       1	           False	       False	  False
-articles/negative/9819	                         1	           False	       False	  False
-articles/negative/8644	                         1	           False	       False	  False
-articles/positive/Jumping_Frenchmen_of_Maine	   1	           False	       True	   false
+File											RandomForest	has_disease	is_group	dbpedia
+articles/positive/Atrophy						1				False		False		False
+articles/negative/3065							1	           	False		False	  	False
+articles/negative/3939							1				False		False		False
+articles/positive/Aortic_valve_stenosis			1				False		False		True
+articles/positive/Cooks_syndrome				1				True		False		True
+articles/positive/Cancer						1				True		True		True
+articles/positive/Chondrodysplasia_punctata		1				True		True		False
+articles/positive/Watermelon_stomach			1				False		False		False
+articles/positive/Dilated_cardiomyopathy		1				False		False		False
+articles/negative/9819							1				False		False		False
+articles/negative/8644							1				False		False		False
+articles/positive/Jumping_Frenchmen_of_Maine	1				False		True		false
 ```
 
 
