@@ -77,7 +77,7 @@ A new profile based on these predictions can be found in `profiles/prediction_pr
 
 <a id='decision_function'></a>
 ## Decision Function
-I hope it's obvious that I think there are many ways to solve any one problem. To the degree that we can identify the best, we should use the best, certainly. But, at least naively, we can define a simple scoring function:
+It should be obvious by now that I think there are many ways to solve any one problem. To the degree that we can identify the best, we should use the best, certainly. But, at least naively, we can define a simple scoring function:
 
 `D = wa*A + wb*B + . . . wn*N`
 
