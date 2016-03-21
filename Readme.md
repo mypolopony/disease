@@ -17,7 +17,8 @@
 10. [Usage](#usage)
 11. [Improvements](#improvements)
 
-<div align=center><i>What some call health, if purchased by perpetual anxiety about diet, isn't much better than tedious disease. </i><b>(Alexander Pope)</b></div>
+<div align=center><i>What some call health, if purchased by perpetual anxiety about diet, isn't much better than tedious disease.  
+</i><b>(Alexander Pope)</b></div>
 
 ## Executive Summary
 - A Baysean document classifier with 99.3% accuracy
