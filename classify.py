@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# title          : disease_classifier.py
+# title          : disease.py
 # description    : Implementation of text classifiers
 # author         : Selwyn-Lloyd McPherson (selwyn.mcpherson@gmail.com)
 # python_version : 3.5.0
