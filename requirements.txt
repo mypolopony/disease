@@ -5,7 +5,7 @@ future==0.15.2
 html2text==2016.1.8
 isodate==0.5.4
 keepalive==0.5
-lxml==3.5.0
+lxml==4.6.2
 nltk==3.2
 numpy==1.10.4
 pandas==0.17.1
