@@ -7,7 +7,7 @@ isodate==0.5.4
 keepalive==0.5
 lxml==3.5.0
 nltk==3.2
-numpy==1.10.4
+numpy==1.21.0
 pandas==0.17.1
 pyparsing==2.1.0
 python-dateutil==2.5.0
